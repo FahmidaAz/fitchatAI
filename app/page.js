@@ -85,7 +85,7 @@ export default function Home() {
         <Toolbar>
           <FontAwesomeIcon icon={faRobot} style={{ marginRight: '10px', color: '#ffeb3b' }} />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: '#ffffff' }}>
-           FITCHAT
+           FitchatAI
           </Typography>
           <Button sx={{ color: '#ffeb3b', '&:hover': { color: '#ffc107' } }}>Home</Button>
           <Button sx={{ color: '#ffeb3b', '&:hover': { color: '#ffc107' } }}>About</Button>
@@ -213,7 +213,7 @@ export default function Home() {
               borderRadius={8}
             >
               <Typography variant="h4" gutterBottom>
-      Why <b>FITCHAT</b>?
+      Why <b>FitchatAI</b>?
     </Typography>
     <Typography variant="body1" sx={{ lineHeight: 1.8 }}>
       This AI-powered chatbox is designed to support your health and wellness journey. Whether you're seeking advice on mental health, physical fitness, or nutritional guidance, this assistant is here to help.
@@ -221,6 +221,8 @@ export default function Home() {
       Our goal is to provide accurate, compassionate, and actionable advice to enhance your overall well-being. Whether you're curious about stress management techniques, looking for fitness tips, or wanting to improve your diet, feel free to ask your questions here.
       <br /><br />
       Remember, while this chatbot provides valuable insights, it's always important to consult with a healthcare professional for personalized medical advice. Let this assistant be your guide on the path to a healthier, happier you.
+      <br /><br />
+      <i>©powered by ChatGPT-4o</i>
     </Typography>
             </Box>
           </Grid>
